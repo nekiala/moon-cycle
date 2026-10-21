@@ -173,8 +173,9 @@ class MoonCalculator {
       start,
       start.add(const Duration(days: 1)),
     );
-    if (events.isNotEmpty)
+    if (events.isNotEmpty) {
       return MoonPhaseName.fromPrincipal(events.first.phase);
+    }
 
     final noon = start.add(const Duration(hours: 12));
     final jde = julianEphemerisDay(noon);
