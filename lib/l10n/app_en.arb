@@ -1,0 +1,49 @@
+{
+  "@@locale": "en",
+  "appTitle": "Moon Cycle",
+  "@appTitle": {"description": "The app's name."},
+
+  "phaseNewMoon": "New Moon",
+  "phaseWaxingCrescent": "Waxing Crescent",
+  "phaseFirstQuarter": "First Quarter",
+  "phaseWaxingGibbous": "Waxing Gibbous",
+  "phaseFullMoon": "Full Moon",
+  "phaseWaningGibbous": "Waning Gibbous",
+  "phaseLastQuarter": "Last Quarter",
+  "phaseWaningCrescent": "Waning Crescent",
+
+  "today": "Today",
+  "illumination": "Illumination",
+  "illuminationValue": "{percent} lit",
+  "@illuminationValue": {
+    "description": "Share of the moon's disc that is lit, e.g. '78% lit'.",
+    "placeholders": {"percent": {"type": "String"}}
+  },
+  "moonAge": "Moon age",
+  "moonAgeDays": "{days, plural, =0{Less than a day} =1{1 day} other{{days} days}}",
+  "@moonAgeDays": {
+    "description": "Whole days since the last new moon.",
+    "placeholders": {"days": {"type": "int"}}
+  },
+  "distance": "Distance",
+  "distanceKm": "{distance} km",
+  "@distanceKm": {
+    "placeholders": {"distance": {"type": "String"}}
+  },
+  "moonrise": "Moonrise",
+  "moonset": "Moonset",
+  "noMoonrise": "No moonrise today",
+  "noMoonset": "No moonset today",
+  "moonAlwaysUp": "The moon stays up all day",
+  "moonAlwaysDown": "The moon stays below the horizon all day",
+
+  "nextNewMoon": "Next new moon",
+  "nextFirstQuarter": "Next first quarter",
+  "nextFullMoon": "Next full moon",
+  "nextLastQuarter": "Next last quarter",
+  "inDays": "{days, plural, =0{Today} =1{Tomorrow} other{In {days} days}}",
+  "@inDays": {
+    "description": "How long until an event, in whole days.",
+    "placeholders": {"days": {"type": "int"}}
+  }
+}
