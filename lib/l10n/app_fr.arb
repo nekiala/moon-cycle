@@ -1,0 +1,33 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Cycle lunaire",
+
+  "phaseNewMoon": "Nouvelle lune",
+  "phaseWaxingCrescent": "Premier croissant",
+  "phaseFirstQuarter": "Premier quartier",
+  "phaseWaxingGibbous": "Gibbeuse croissante",
+  "phaseFullMoon": "Pleine lune",
+  "phaseWaningGibbous": "Gibbeuse décroissante",
+  "phaseLastQuarter": "Dernier quartier",
+  "phaseWaningCrescent": "Dernier croissant",
+
+  "today": "Aujourd'hui",
+  "illumination": "Illumination",
+  "illuminationValue": "{percent} éclairée",
+  "moonAge": "Âge de la lune",
+  "moonAgeDays": "{days, plural, =0{Moins d'un jour} =1{1 jour} other{{days} jours}}",
+  "distance": "Distance",
+  "distanceKm": "{distance} km",
+  "moonrise": "Lever de lune",
+  "moonset": "Coucher de lune",
+  "noMoonrise": "Pas de lever de lune aujourd'hui",
+  "noMoonset": "Pas de coucher de lune aujourd'hui",
+  "moonAlwaysUp": "La lune reste levée toute la journée",
+  "moonAlwaysDown": "La lune reste sous l'horizon toute la journée",
+
+  "nextNewMoon": "Prochaine nouvelle lune",
+  "nextFirstQuarter": "Prochain premier quartier",
+  "nextFullMoon": "Prochaine pleine lune",
+  "nextLastQuarter": "Prochain dernier quartier",
+  "inDays": "{days, plural, =0{Aujourd'hui} =1{Demain} other{Dans {days} jours}}"
+}
