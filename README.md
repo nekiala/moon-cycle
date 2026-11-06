@@ -26,7 +26,9 @@ lib/
     astronomy/              the moon engine (pure Dart, no Flutter imports)
     theme/                  colours, typography, the dark theme
   features/
-    home/                   home screen (placeholder until Phase 2)
+    home/                   the moon screen
+    location/               device location, remembered between launches
+    moon/                   moon screen state (Riverpod) and the moon drawing
   l10n/                     English and French strings (ARB) and generated code
 assets/fonts/               Cormorant Garamond and Inter, bundled (SIL OFL)
 test/
@@ -62,6 +64,19 @@ It implements Jean Meeus, *Astronomical Algorithms* (2nd ed., 1998):
 The tests check it against the worked examples in Meeus, the NASA and USNO
 phase tables, and moonrise and moonset times from PyEphem for Kinshasa,
 Paris, New York, Sydney and Tromsø.
+
+## The moon screen
+
+The home screen shows the Moon drawn with its real lit shape, turned as it
+sits in your sky (the parallactic angle, so an evening crescent near the
+equator lies on its back). Below it: the phase name, illumination, where
+we are in the lunar cycle, moon age, distance, moonrise and moonset, and
+the next four principal phases. Drag the moon sideways, or use the arrows,
+to move through time; "Back to now" returns to the live view.
+
+State uses Riverpod (`flutter_riverpod`, no code generation). Location
+comes from `geolocator` at low accuracy, is asked for only when the user
+taps "Use my location", and is saved with `shared_preferences`.
 
 ## Translations
 

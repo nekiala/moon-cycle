@@ -1,8 +1,9 @@
 {
   "@@locale": "en",
   "appTitle": "Moon Cycle",
-  "@appTitle": {"description": "The app's name."},
-
+  "@appTitle": {
+    "description": "The app's name."
+  },
   "phaseNewMoon": "New Moon",
   "phaseWaxingCrescent": "Waxing Crescent",
   "phaseFirstQuarter": "First Quarter",
@@ -11,24 +12,35 @@
   "phaseWaningGibbous": "Waning Gibbous",
   "phaseLastQuarter": "Last Quarter",
   "phaseWaningCrescent": "Waning Crescent",
-
   "today": "Today",
   "illumination": "Illumination",
   "illuminationValue": "{percent} lit",
   "@illuminationValue": {
     "description": "Share of the moon's disc that is lit, e.g. '78% lit'.",
-    "placeholders": {"percent": {"type": "String"}}
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
   },
   "moonAge": "Moon age",
   "moonAgeDays": "{days, plural, =0{Less than a day} =1{1 day} other{{days} days}}",
   "@moonAgeDays": {
     "description": "Whole days since the last new moon.",
-    "placeholders": {"days": {"type": "int"}}
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
   },
   "distance": "Distance",
   "distanceKm": "{distance} km",
   "@distanceKm": {
-    "placeholders": {"distance": {"type": "String"}}
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
   },
   "moonrise": "Moonrise",
   "moonset": "Moonset",
@@ -36,7 +48,6 @@
   "noMoonset": "No moonset today",
   "moonAlwaysUp": "The moon stays up all day",
   "moonAlwaysDown": "The moon stays below the horizon all day",
-
   "nextNewMoon": "Next new moon",
   "nextFirstQuarter": "Next first quarter",
   "nextFullMoon": "Next full moon",
@@ -44,6 +55,85 @@
   "inDays": "{days, plural, =0{Today} =1{Tomorrow} other{In {days} days}}",
   "@inDays": {
     "description": "How long until an event, in whole days.",
-    "placeholders": {"days": {"type": "int"}}
-  }
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "now": "Now",
+  "backToNow": "Back to now",
+  "previousDay": "Previous day",
+  "nextDay": "Next day",
+  "dragHint": "Drag the moon to move through time",
+  "moonPictureLabel": "{phase}, {percent} lit",
+  "@moonPictureLabel": {
+    "description": "Screen reader label for the moon picture.",
+    "placeholders": {
+      "phase": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "lunarCycle": "Lunar cycle",
+  "cycleLength": "A {length}-day cycle, new moon to new moon",
+  "@cycleLength": {
+    "description": "Length of the current lunation, e.g. 'A 29.5-day cycle, new moon to new moon'.",
+    "placeholders": {
+      "length": {
+        "type": "String"
+      }
+    }
+  },
+  "comingUp": "Coming up",
+  "moonUp": "Above the horizon",
+  "moonDown": "Below the horizon",
+  "riseSetTitle": "Moonrise and moonset",
+  "locationPromptTitle": "See moonrise and moonset where you are",
+  "locationPromptBody": "Moon Cycle uses an approximate location, kept only on this device.",
+  "useMyLocation": "Use my location",
+  "locating": "Finding your location…",
+  "updateLocation": "Update location",
+  "locationDenied": "Location access was declined.",
+  "locationDeniedForever": "Location access is off for Moon Cycle. You can turn it on in Settings.",
+  "locationServiceOff": "Location services are turned off on this device.",
+  "locationFailed": "Your location couldn't be found. Please try again.",
+  "openSettings": "Open Settings",
+  "tryAgain": "Try again",
+  "latitudeNorth": "{degrees}° N",
+  "@latitudeNorth": {
+    "placeholders": {
+      "degrees": {
+        "type": "String"
+      }
+    }
+  },
+  "latitudeSouth": "{degrees}° S",
+  "@latitudeSouth": {
+    "placeholders": {
+      "degrees": {
+        "type": "String"
+      }
+    }
+  },
+  "longitudeEast": "{degrees}° E",
+  "@longitudeEast": {
+    "placeholders": {
+      "degrees": {
+        "type": "String"
+      }
+    }
+  },
+  "longitudeWest": "{degrees}° W",
+  "@longitudeWest": {
+    "placeholders": {
+      "degrees": {
+        "type": "String"
+      }
+    }
+  },
+  "noLocation": "Location not set"
 }
