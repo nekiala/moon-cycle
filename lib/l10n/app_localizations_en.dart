@@ -111,4 +111,104 @@ class AppLocalizationsEn extends AppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get now => 'Now';
+
+  @override
+  String get backToNow => 'Back to now';
+
+  @override
+  String get previousDay => 'Previous day';
+
+  @override
+  String get nextDay => 'Next day';
+
+  @override
+  String get dragHint => 'Drag the moon to move through time';
+
+  @override
+  String moonPictureLabel(String phase, String percent) {
+    return '$phase, $percent lit';
+  }
+
+  @override
+  String get lunarCycle => 'Lunar cycle';
+
+  @override
+  String cycleLength(String length) {
+    return 'A $length-day cycle, new moon to new moon';
+  }
+
+  @override
+  String get comingUp => 'Coming up';
+
+  @override
+  String get moonUp => 'Above the horizon';
+
+  @override
+  String get moonDown => 'Below the horizon';
+
+  @override
+  String get riseSetTitle => 'Moonrise and moonset';
+
+  @override
+  String get locationPromptTitle => 'See moonrise and moonset where you are';
+
+  @override
+  String get locationPromptBody =>
+      'Moon Cycle uses an approximate location, kept only on this device.';
+
+  @override
+  String get useMyLocation => 'Use my location';
+
+  @override
+  String get locating => 'Finding your location…';
+
+  @override
+  String get updateLocation => 'Update location';
+
+  @override
+  String get locationDenied => 'Location access was declined.';
+
+  @override
+  String get locationDeniedForever =>
+      'Location access is off for Moon Cycle. You can turn it on in Settings.';
+
+  @override
+  String get locationServiceOff =>
+      'Location services are turned off on this device.';
+
+  @override
+  String get locationFailed =>
+      'Your location couldn\'t be found. Please try again.';
+
+  @override
+  String get openSettings => 'Open Settings';
+
+  @override
+  String get tryAgain => 'Try again';
+
+  @override
+  String latitudeNorth(String degrees) {
+    return '$degrees° N';
+  }
+
+  @override
+  String latitudeSouth(String degrees) {
+    return '$degrees° S';
+  }
+
+  @override
+  String longitudeEast(String degrees) {
+    return '$degrees° E';
+  }
+
+  @override
+  String longitudeWest(String degrees) {
+    return '$degrees° W';
+  }
+
+  @override
+  String get noLocation => 'Location not set';
 }

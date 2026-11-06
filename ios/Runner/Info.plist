@@ -6,6 +6,8 @@
 	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Moon Cycle uses your approximate location to work out moonrise and moonset times where you are.</string>
 	<key>CFBundleDisplayName</key>
 	<string>Moon Cycle</string>
 	<key>CFBundleExecutable</key>

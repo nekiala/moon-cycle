@@ -259,6 +259,174 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'{days, plural, =0{Today} =1{Tomorrow} other{In {days} days}}'**
   String inDays(int days);
+
+  /// No description provided for @now.
+  ///
+  /// In en, this message translates to:
+  /// **'Now'**
+  String get now;
+
+  /// No description provided for @backToNow.
+  ///
+  /// In en, this message translates to:
+  /// **'Back to now'**
+  String get backToNow;
+
+  /// No description provided for @previousDay.
+  ///
+  /// In en, this message translates to:
+  /// **'Previous day'**
+  String get previousDay;
+
+  /// No description provided for @nextDay.
+  ///
+  /// In en, this message translates to:
+  /// **'Next day'**
+  String get nextDay;
+
+  /// No description provided for @dragHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Drag the moon to move through time'**
+  String get dragHint;
+
+  /// Screen reader label for the moon picture.
+  ///
+  /// In en, this message translates to:
+  /// **'{phase}, {percent} lit'**
+  String moonPictureLabel(String phase, String percent);
+
+  /// No description provided for @lunarCycle.
+  ///
+  /// In en, this message translates to:
+  /// **'Lunar cycle'**
+  String get lunarCycle;
+
+  /// Length of the current lunation, e.g. 'A 29.5-day cycle, new moon to new moon'.
+  ///
+  /// In en, this message translates to:
+  /// **'A {length}-day cycle, new moon to new moon'**
+  String cycleLength(String length);
+
+  /// No description provided for @comingUp.
+  ///
+  /// In en, this message translates to:
+  /// **'Coming up'**
+  String get comingUp;
+
+  /// No description provided for @moonUp.
+  ///
+  /// In en, this message translates to:
+  /// **'Above the horizon'**
+  String get moonUp;
+
+  /// No description provided for @moonDown.
+  ///
+  /// In en, this message translates to:
+  /// **'Below the horizon'**
+  String get moonDown;
+
+  /// No description provided for @riseSetTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Moonrise and moonset'**
+  String get riseSetTitle;
+
+  /// No description provided for @locationPromptTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'See moonrise and moonset where you are'**
+  String get locationPromptTitle;
+
+  /// No description provided for @locationPromptBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Moon Cycle uses an approximate location, kept only on this device.'**
+  String get locationPromptBody;
+
+  /// No description provided for @useMyLocation.
+  ///
+  /// In en, this message translates to:
+  /// **'Use my location'**
+  String get useMyLocation;
+
+  /// No description provided for @locating.
+  ///
+  /// In en, this message translates to:
+  /// **'Finding your location…'**
+  String get locating;
+
+  /// No description provided for @updateLocation.
+  ///
+  /// In en, this message translates to:
+  /// **'Update location'**
+  String get updateLocation;
+
+  /// No description provided for @locationDenied.
+  ///
+  /// In en, this message translates to:
+  /// **'Location access was declined.'**
+  String get locationDenied;
+
+  /// No description provided for @locationDeniedForever.
+  ///
+  /// In en, this message translates to:
+  /// **'Location access is off for Moon Cycle. You can turn it on in Settings.'**
+  String get locationDeniedForever;
+
+  /// No description provided for @locationServiceOff.
+  ///
+  /// In en, this message translates to:
+  /// **'Location services are turned off on this device.'**
+  String get locationServiceOff;
+
+  /// No description provided for @locationFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Your location couldn\'t be found. Please try again.'**
+  String get locationFailed;
+
+  /// No description provided for @openSettings.
+  ///
+  /// In en, this message translates to:
+  /// **'Open Settings'**
+  String get openSettings;
+
+  /// No description provided for @tryAgain.
+  ///
+  /// In en, this message translates to:
+  /// **'Try again'**
+  String get tryAgain;
+
+  /// No description provided for @latitudeNorth.
+  ///
+  /// In en, this message translates to:
+  /// **'{degrees}° N'**
+  String latitudeNorth(String degrees);
+
+  /// No description provided for @latitudeSouth.
+  ///
+  /// In en, this message translates to:
+  /// **'{degrees}° S'**
+  String latitudeSouth(String degrees);
+
+  /// No description provided for @longitudeEast.
+  ///
+  /// In en, this message translates to:
+  /// **'{degrees}° E'**
+  String longitudeEast(String degrees);
+
+  /// No description provided for @longitudeWest.
+  ///
+  /// In en, this message translates to:
+  /// **'{degrees}° W'**
+  String longitudeWest(String degrees);
+
+  /// No description provided for @noLocation.
+  ///
+  /// In en, this message translates to:
+  /// **'Location not set'**
+  String get noLocation;
 }
 
 class _AppLocalizationsDelegate
